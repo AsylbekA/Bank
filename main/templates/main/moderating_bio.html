@@ -77,8 +77,8 @@
           {% endif %}
             
           <p>
-            <a href="{% url 'main:moderating_bio_accept' cid=client.clientid" class="btn btn-primary my-2">Принять</a>
-            <a href="{% url 'main:moderating_bio_decline' cid=client.clientid" class="btn btn-primary my-2">Отклонить</a>
+            <a href="{% url 'main:moderating_bio_accept' cid=client.clientid %}" class="btn btn-primary my-2">Принять</a>
+            <a href="{% url 'main:moderating_bio_decline' cid=client.clientid %}" class="btn btn-primary my-2">Отклонить</a>
           </p>
         </div>
       </section>
